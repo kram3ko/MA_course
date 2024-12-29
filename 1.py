@@ -10,5 +10,5 @@ def message_people(people: list) -> callable:
     return print_message
 
 
-mes_people = message_people(["Alex", "Robert", "Tom"])
+mes_people = message_people(["Alex", "Robert", "Tom", "Ivan"])
 mes_people("hello")
