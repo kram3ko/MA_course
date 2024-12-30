@@ -17,4 +17,4 @@ jobs:
     - name: Run linter
       run: flake8 .
     - name: Run formatters
-      run: black --check . && ruff --check .
+      run: black --check . && ruff check .
