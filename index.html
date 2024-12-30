@@ -2,12 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><Mine test Project></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма с полями</title>
+    <style>
+        .field {
+            margin-bottom: 15px;
+        }
+        #name {
+            background-color: #ffcccc; /* Светло-красный */
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #surname {
+            background-color: #ccffcc; /* Светло-зеленый */
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #student {
+            background-color: #ccccff; /* Светло-синий */
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>My _project</h1>
-<ul>
-    <li>red</li>
-</ul>
+    <h1>Введите данные студента</h1>
+    <form>
+        <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Volodymyr">
+        </div>
+        <div class="field">
+            <label for="surname">Last_name:</label>
+            <input type="text" id="surname" name="surname" value="Vinohradov">
+        </div>
+        <div class="field">
+            <label for="student">Student:</label>
+            <input type="text" id="student" name="student" value="MA_Courses">
+        </div>
+        <button type="submit" style="padding: 15px 30px; font-size: 25px;">👍</button>
+
+    </form>
 </body>
 </html>
